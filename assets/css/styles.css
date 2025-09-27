@@ -67,7 +67,7 @@ header a {
 
 #menu a:hover {
     color: var(--accent-light);
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .active {
@@ -102,4 +102,37 @@ main {
     /*To ensure main uses all space to push footer to bottom*/
     flex: 1 0 auto;
     margin-top: 44px;
+}
+
+/*Media Queries*/
+/*Tablets and larger (768px and up)*/
+@media screen and (min-width:768px) {
+    /*Header*/
+    header {
+        padding: 7px 10px;
+    }
+    
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 10px;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        border-top: none;
+    }
+
+    /*Main Content*/
+    main {
+    margin-top: 53px;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
 }
