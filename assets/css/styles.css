@@ -125,6 +125,7 @@ main {
 
     #menu li {
         border-top: none;
+        margin-right: 1rem;
     }
 
     /*Main Content*/
