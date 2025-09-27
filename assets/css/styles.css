@@ -2,13 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /*Styles for section visualisation*/
-nav {
-    background-color: aqua;
-}
-
-header {
-    background-color: lightcoral;
-}
 
 footer {
     background-color: lightslategray;
@@ -24,17 +17,89 @@ footer {
     --accent-dark: #7b00b8; /*Purple*/
 }
 
-
 /*General Styles*/
 body {
     Display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: var(--body-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+h1 {
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    position: fixed;
+    padding: 7px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+#menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 5px 0;
+}
+
+#menu li {
+    border-top: 1px solid var(--secondary-color);
+    padding: 5px 0;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+
+#menu a:hover {
+    color: var(--accent-light);
+    font-weight: bold;
+}
+
+.active {
+    color: var(--accent-light);
+}
+
+nav {
+    background-color: var(--primary-color);
+    position: absolute;
+    width:100%;
+    left: 0;
+    padding-left: 5px;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+.nav-toggle {
+    font-size: 1.5rem; 
+    padding-right: 10px;
 }
 
 main {
     background-color: lightgreen;
     /*To ensure main uses all space to push footer to bottom*/
     flex: 1 0 auto;
+    margin-top: 44px;
 }
