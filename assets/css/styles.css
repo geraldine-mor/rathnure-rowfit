@@ -151,3 +151,19 @@ main {
     margin-top: 53px;
     }
 }
+
+/*Large Screens (992px and above)*/
+@media screen and (min-width: 992px) {
+    #hero {
+        height: 500px;
+        background-position: center 75%;
+    }    
+}
+
+/*Very Large Screens (1400px and above)*/
+@media screen and (min-width: 1400px) {
+    #hero {
+        height: 650px;
+    }
+    
+}
