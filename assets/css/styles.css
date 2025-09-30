@@ -29,7 +29,6 @@ body {
     Display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0;
     font-family: var(--body-font);
     background-color: var(--secondary-color);
 }
@@ -141,15 +140,15 @@ main {
 /*About Section*/
 #about {
     background-color: var(--secondary-color);
-    padding: 1rem 0.5rem;
+    padding: 1rem 10px;
     color: var(--primary-color);
 }
 
-#about h3 {
+#about h2 {
     color: var(--accent-dark);
 }
 
-#about p {
+.about {
     padding: 0.5rem 0;
 }
 
@@ -157,6 +156,20 @@ main {
     height: 200px;
     background: url(../images/about-image.webp) no-repeat center center / cover;
     width: 100%;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+/*Rowing Section*/
+#rowing {
+    background-color: var(--primary-color);
+    padding: 1rem 10px;
+    color: var(--secondary-color);
+    text-align: end;
+}
+
+#rowing h2 {
+    color: var(--accent-light);
+    
 }
 
 /*Buttons*/
@@ -165,19 +178,35 @@ main {
     font-family: var(--body-font);
     border-radius: 10px;
     font-size: 1rem; 
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+.button a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #class-btn {
     background-color: var(--accent-dark);
     border: 3px solid var(--accent-dark);
-    color: var(--secondary-color);
-    font-weight: 500;
-    margin-bottom: 0.5rem;
+    color: var(--secondary-color);   
 }
 
 #class-btn:hover {
     background-color: transparent;
     color: var(--accent-dark);
+}
+
+#contact-btn {
+    background-color: var(--accent-light);
+    border: 3px solid var(--accent-light);
+    color: var(--primary-color);   
+}
+
+#contact-btn:hover {
+    background-color: transparent;
+    color: var(--accent-light);
 }
 
 /*Media Queries*/
