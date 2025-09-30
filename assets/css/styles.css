@@ -31,6 +31,7 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: var(--body-font);
+    background-color: var(--secondary-color);
 }
 
 h1, h2, h3 {
@@ -152,6 +153,12 @@ main {
     padding: 0.5rem 0;
 }
 
+#about-image {
+    height: 200px;
+    background: url(../images/about-image.webp) no-repeat center center / cover;
+    width: 100%;
+}
+
 /*Buttons*/
 .button {
     padding: 6px 12px;
@@ -165,6 +172,7 @@ main {
     border: 3px solid var(--accent-dark);
     color: var(--secondary-color);
     font-weight: 500;
+    margin-bottom: 0.5rem;
 }
 
 #class-btn:hover {
