@@ -147,17 +147,22 @@ main {
         flex-grow: 1      
 }
 
+#about p {
+    padding: 0.5rem 0;
+}
+
+#about p~p {
+    margin-bottom: 61px;
+}
+
 #club-info {
     padding: 1rem 10px;
-    color: var(--primary-color);  
+    color: var(--primary-color);
+    position: relative;  
 }
 
 #club-info h2 {
     color: var(--accent-dark);
-}
-
-#about p {
-    padding: 0.5rem 0;
 }
 
 #about-image {
@@ -173,6 +178,7 @@ main {
     color: var(--secondary-color);
     text-align: end;
     border-bottom: 1px solid var(--secondary-color);
+    position: relative;
 }
 
 #rowing h2 {
@@ -187,6 +193,8 @@ main {
     font-size: 1rem; 
     margin-top: 0.5rem;
     font-weight: 500;
+    position: absolute;
+    bottom: 1rem;
 }
 
 .button a {
@@ -208,7 +216,8 @@ main {
 #contact-btn {
     background-color: var(--accent-light);
     border: 3px solid var(--accent-light);
-    color: var(--primary-color);   
+    color: var(--primary-color);
+    right: 10px;   
 }
 
 #contact-btn:hover {
@@ -262,28 +271,27 @@ main {
 /*XL screens (1200px and above)*/
 @media screen and (min-width: 1200px) {
     /*About Section*/
+    #about {
+        border-top: 8px solid #00ffff;
+        border-bottom: 8px solid #00ffff;
+    }
+
     .about {
         min-height: 315px;
-        position: relative;
+    } 
+
+    #about-image {
+        border: none;
     }
 
-    .button {
-        position: absolute;
-        bottom: 1rem;
+    #rowing {
+        border: none;
     }
-
-    #contact-btn {
-        right: 10px;
-    }  
 }
 
 /*Very Large Screens (1400px and above)*/
 @media screen and (min-width: 1400px) {
     #hero {
         height: 650px;
-    }
-    
-    .about {
-        min-height: auto;
     }
 }
