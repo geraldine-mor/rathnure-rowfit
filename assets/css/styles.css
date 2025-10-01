@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /*Styles for section visualisation*/
-
 footer {
     background-color: lightslategray;
 }
@@ -54,7 +53,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 4px 2px black;
+    box-shadow: 0px 4px 2px #0d1e2a;
     z-index: 99;
 }
 
@@ -138,6 +137,16 @@ main {
 }
 
 /*About Section*/
+#about {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+#about div {
+        flex-basis: 400px;
+        flex-grow: 1      
+}
+
 #club-info {
     padding: 1rem 10px;
     color: var(--primary-color);  
@@ -147,7 +156,7 @@ main {
     color: var(--accent-dark);
 }
 
-.about {
+#about p {
     padding: 0.5rem 0;
 }
 
@@ -158,17 +167,16 @@ main {
     border-bottom: 1px solid var(--secondary-color);
 }
 
-/*Rowing Section*/
 #rowing {
     background-color: var(--primary-color);
     padding: 1rem 10px;
     color: var(--secondary-color);
     text-align: end;
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 #rowing h2 {
-    color: var(--accent-light);
-    
+    color: var(--accent-light);   
 }
 
 /*Buttons*/
@@ -224,7 +232,7 @@ main {
         box-shadow: none;
     }
 
-      .nav-toggle {
+    .nav-toggle {
         display: none;
     }
 
@@ -241,9 +249,7 @@ main {
     main {
     margin-top: 53px;
     }
-
-
-}
+}    
 
 /*Large Screens (992px and above)*/
 @media screen and (min-width: 992px) {
@@ -251,6 +257,24 @@ main {
         height: 500px;
         background-position: center 75%;
     }    
+}
+
+/*XL screens (1200px and above)*/
+@media screen and (min-width: 1200px) {
+    /*About Section*/
+    .about {
+        min-height: 315px;
+        position: relative;
+    }
+
+    .button {
+        position: absolute;
+        bottom: 1rem;
+    }
+
+    #contact-btn {
+        right: 10px;
+    }  
 }
 
 /*Very Large Screens (1400px and above)*/
