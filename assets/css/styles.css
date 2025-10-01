@@ -283,4 +283,7 @@ main {
         height: 650px;
     }
     
+    .about {
+        min-height: auto;
+    }
 }
