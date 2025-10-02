@@ -1,11 +1,6 @@
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-/*Styles for section visualisation*/
-footer {
-    background-color: lightslategray;
-}
-
 /*CSS Variables*/
 :root {
     --heading-font: "Michroma", sans-serif;
@@ -231,6 +226,24 @@ main {
 #contact-btn:hover {
     background-color: transparent;
     color: var(--accent-light);
+}
+
+/*Footer*/
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-links i {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    padding: 10px;
 }
 
 /*Media Queries*/
