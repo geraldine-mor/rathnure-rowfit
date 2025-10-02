@@ -304,9 +304,11 @@ footer {
 }
 
 /*Point at which 3 about divs form 1 row (1152px)*/
-    #about * {
+@media screen and (min-width: 1152px) {
+    #about div {
         border: none;
     }
+}    
 
     footer {
         box-shadow: 0 -4px 2px #0d1e2a;
