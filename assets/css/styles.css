@@ -145,8 +145,8 @@ main {
     margin-top: 20px;
     text-align: center;
     min-width: 100%;
-    background: url(../images/timetable-title-image.webp) no-repeat center 10% / cover;
-    min-height: 150px;
+    background: url(../images/timetable-title-image.webp) no-repeat center 35% / cover;
+    min-height: 30%;
 }
 
 #timetable-title > div {
@@ -280,7 +280,13 @@ footer {
 }
 
 /*Media Queries*/
-/*Tablets and larger (768px and up)*/
+/*Point at which title changes to 1 line (459px)*/
+@media screen and (min-width: 459px) {
+    #timetable-title h1 {
+        padding: 44px 0;
+    }
+}
+/*Tablets and larger (768px and above)*/
 @media screen and (min-width:768px) {
     /*Header*/
     header {
