@@ -146,7 +146,7 @@ main {
     text-align: center;
     min-width: 100%;
     background: url(../images/timetable-title-image.webp) no-repeat center 35% / cover;
-    min-height: 30%;
+    min-height: 150px;
 }
 
 #timetable-title > div {
