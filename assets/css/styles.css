@@ -140,6 +140,25 @@ main {
     min-width: 100%;
 }
 
+/*Timetable Page*/
+#timetable-title {
+    margin-top: 20px;
+    text-align: center;
+    min-width: 100%;
+    background: url(../images/timetable-title-image.webp) no-repeat center 10% / cover;
+    min-height: 150px;
+}
+
+#timetable-title > div {
+    background-color: rgba(33, 62, 83, 0.4);
+    min-height: 150px;
+}
+
+#timetable-title h1 {
+    padding: 14px 0;
+    color: var(--secondary-color);
+}
+
 /*About Section*/
 #about {
         display: flex;
