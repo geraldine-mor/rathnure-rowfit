@@ -224,6 +224,15 @@ main {
     align-items: flex-end;
 }
 
+#circuits {
+    background: url(../images/circuits.webp) no-repeat center top / cover;
+    height: 200px;
+    color: var(--accent-dark);
+    text-align: end;
+    display: flex;
+    align-items: flex-end;
+}
+
 .card-heading {
     padding: 0 5px 5px 5px;
     background-color: rgba(33, 62, 83, 0.6);
@@ -231,6 +240,10 @@ main {
     flex-direction: column;
     justify-content: end;
     width: 100%;    
+}
+
+#circuits .card-heading {
+    background-color: rgba(235, 236, 240, 0.6);
 }
 
 .card p {
@@ -352,12 +365,14 @@ footer {
     /*Timetable Page*/
     #timetable-cards {
         display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
     }
 
-    .cards {
-        min-width: 300px;
+    .card {
+        flex-basis: 350px;
+        flex-grow: 1;
+
     }
 }    
 
