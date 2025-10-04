@@ -233,6 +233,24 @@ main {
     align-items: flex-end;
 }
 
+#intervals {
+    background: url(../images/interval-training.webp) no-repeat center top / cover;
+    height: 200px;
+    color: var(--highlight);
+    text-align: start;
+    display: flex;
+    align-items: flex-end;
+}
+
+#social-hike {
+    background: url(../images/social-hike.webp) no-repeat center top / cover;
+    height: 200px;
+    color: var(--primary-color);
+    text-align: end;
+    display: flex;
+    align-items: flex-end;
+}
+
 .card-heading {
     padding: 0 5px 5px 5px;
     background-color: rgba(33, 62, 83, 0.6);
@@ -242,7 +260,7 @@ main {
     width: 100%;    
 }
 
-#circuits .card-heading {
+#circuits .card-heading, #social-hike .card-heading {
     background-color: rgba(235, 236, 240, 0.6);
 }
 
@@ -373,6 +391,10 @@ footer {
         flex-basis: 350px;
         flex-grow: 1;
 
+    }
+
+    .card p {
+        min-height: 143px;
     }
 }    
 
