@@ -390,7 +390,6 @@ footer {
     .card {
         flex-basis: 350px;
         flex-grow: 1;
-
     }
 
     .card p {
@@ -411,7 +410,19 @@ footer {
     #about div {
         border: none;
     }
-}    
+} 
+
+/*XL screens (1200px and above)*/
+@media screen and (min-width: 1200px) {
+    .card {
+        flex-basis: 280px;
+        flex-grow: 1;
+    }
+
+    .card-heading {
+        text-align: center;
+    }
+}
 
 /*Very Large Screens (1400px and above)*/
 @media screen and (min-width: 1400px) {
