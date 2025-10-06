@@ -26,10 +26,12 @@ body {
     min-height: 100vh;
     font-family: var(--body-font);
     background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 h1, h2, h3 {
     font-family: var(--heading-font);
+    text-transform: capitalize;
 }
 
 h1 {
@@ -208,6 +210,10 @@ main {
     color: var(--secondary-color);
 }
 
+#timetable-info {
+    padding: 10px 10px 0 10px;
+}
+
 .card {
     margin: 20px 10px;
     height: fit-content;
@@ -381,6 +387,15 @@ footer {
     }
 
     /*Timetable Page*/
+    #timetable-info {
+        display: flex;
+        justify-content: center;
+    }
+
+    #timetable-info p {
+        flex-basis: 80%;
+    }
+    
     #timetable-cards {
         display: flex;
         flex-flow: row wrap;
@@ -422,6 +437,19 @@ footer {
 
 /*XL screens (1200px and above)*/
 @media screen and (min-width: 1200px) {
+    /*Timetable Page*/
+    #timetable-title {
+        min-height: 300px;
+    }
+
+    #timetable-title > div {
+        min-height: 300px;
+    }
+
+    #timetable-title h1 {
+        padding: 120px 0;
+    }
+
     .card {
         flex-basis: 280px;
         flex-grow: 1;
