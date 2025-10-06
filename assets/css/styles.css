@@ -5,6 +5,7 @@
 :root {
     --heading-font: "Michroma", sans-serif;
     --body-font: "Rubik", sans-serif;
+    /*Primary & secondary colors chosen using figma.com/color-picker, accents & highlight chosen for brightness and contrast*/
     --primary-color: #213e53; /*Dark blue*/
     --secondary-color: #ebecf0; /*Light grey*/
     --accent-light: #b3f542; /*Green*/
@@ -29,7 +30,9 @@ body {
     color: var(--primary-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--heading-font);
     text-transform: capitalize;
 }
@@ -39,9 +42,18 @@ h1 {
     margin: 0;
     font-size: 270%;
     padding-bottom: 10px;
-    color: var(--primary-color)   
+    color: var(--primary-color)
 }
 
+.hidden {
+    display: none;
+}
+
+.text-end {
+    text-align: end;
+}
+
+/*Navbar*/
 header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -51,13 +63,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 4px 2px #0d1e2a;
+    box-shadow: 0px 4px 2px #0d1e2a; /*Darker variation of primary color*/
     z-index: 99;
 }
 
 header a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: inherit;
 }
 
 #logo-image {
@@ -77,16 +89,13 @@ header a {
     letter-spacing: 1px;
 }
 
-#menu a:hover {
-   font-weight: 500;
-}
-
 .blue-hover:hover {
     color: var(--highlight);
 }
 
 .purple-hover:hover {
     color: #D072FF;
+    /*Lighter variation of accent-dark for improved visibility*/
 }
 
 .green-hover:hover {
@@ -96,7 +105,7 @@ header a {
 nav {
     background-color: var(--primary-color);
     position: absolute;
-    width:100%;
+    width: 100%;
     left: 0;
     padding-left: 10px;
     display: none;
@@ -113,7 +122,7 @@ nav {
 }
 
 .nav-toggle {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
 }
 
 /*Main Content*/
@@ -139,18 +148,19 @@ main {
     top: 20px;
     text-align: center;
     background-color: rgba(235, 236, 240, 0.7);
+    /*Secondary color converted to rgb using https://htmlcolorcodes.com/hex-to-rgb/*/
     min-width: 100%;
 }
 
 /*About Section*/
 #about {
-        display: flex;
-        flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #about div {
-        flex-basis: 384px;
-        flex-grow: 1      
+    flex-basis: 384px;
+    flex-grow: 1
 }
 
 #about p {
@@ -158,15 +168,21 @@ main {
 }
 
 #about p~p {
-    margin-bottom: 61px;
+    margin-bottom: 50px;
+}
+
+.about-text {
+    padding: 1rem 10px;
+    position: relative;
+}
+
+.about-border-top {
+    border-top: 1px solid var(--secondary-color);
 }
 
 #club-info {
-    padding: 1rem 10px;
     color: var(--secondary-color);
-    position: relative; 
-    background-color: var(--primary-color); 
-    border-top: 1px solid var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 #club-info h2 {
@@ -177,18 +193,14 @@ main {
     min-height: 300px;
     background: url(../images/about-image.webp) no-repeat top left / cover;
     width: 100%;
-    border-top: 1px solid var(--secondary-color);
 }
 
 #rowing {
-    padding: 1rem 10px;
     color: var(--primary-color);
-    text-align: end;
-    position: relative;
 }
 
 #rowing h2 {
-    color: var(--accent-dark);   
+    color: var(--accent-dark);
 }
 
 /*Timetable Page*/
@@ -197,16 +209,15 @@ main {
     text-align: center;
     min-width: 100%;
     background: url(../images/timetable-title-image.webp) no-repeat center 35% / cover;
-    min-height: 150px;
+    min-height: 250px;
 }
 
-#timetable-title > div {
+#timetable-title>div {
     background-color: rgba(33, 62, 83, 0.4);
-    min-height: 150px;
 }
 
 #timetable-title h1 {
-    padding: 14px 0;
+    padding: 108px 0;
     color: var(--secondary-color);
 }
 
@@ -218,43 +229,32 @@ main {
     margin: 20px 10px;
     height: fit-content;
     box-shadow: 0 0 10px var(--primary-color);
-    color: var(--primary-color);
+}
+
+.card-image {
+    display: flex;
+    align-items: flex-end;
+    height: 220px;
 }
 
 #steady-state {
-    background: url(../images/steady-state.webp) no-repeat center top / cover;
-    height: 200px;
+    background: url(../images/steady-state.webp) no-repeat center 10% / cover;
     color: var(--accent-light);
-    text-align: start;
-    display: flex;
-    align-items: flex-end;
 }
 
 #circuits {
     background: url(../images/circuits.webp) no-repeat center top / cover;
-    height: 200px;
     color: var(--accent-dark);
-    text-align: end;
-    display: flex;
-    align-items: flex-end;
 }
 
 #intervals {
     background: url(../images/interval-training.webp) no-repeat center center / cover;
-    height: 200px;
     color: var(--highlight);
-    text-align: start;
-    display: flex;
-    align-items: flex-end;
 }
 
 #social-hike {
-    background: url(../images/social-hike.webp) no-repeat center center / cover;
-    height: 200px;
+    background: url(../images/social-hike.webp) no-repeat center top / cover;
     color: var(--primary-color);
-    text-align: end;
-    display: flex;
-    align-items: flex-end;
 }
 
 .card-heading {
@@ -263,10 +263,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width: 100%;    
+    width: 100%;
 }
 
-#circuits .card-heading, #social-hike .card-heading {
+#circuits .card-heading,
+#social-hike .card-heading {
     background-color: rgba(235, 236, 240, 0.6);
 }
 
@@ -279,39 +280,37 @@ main {
     padding: 6px 12px;
     font-family: var(--body-font);
     border-radius: 10px;
-    font-size: 1rem; 
+    font-size: 1rem;
     margin-top: 0.5rem;
     font-weight: 500;
     position: absolute;
     bottom: 1rem;
 }
 
-.button a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#class-btn {
+.green-btn {
     background-color: var(--accent-light);
     border: 3px solid var(--accent-light);
-    color: var(--primary-color);   
+    color: var(--primary-color);
 }
 
-#class-btn:hover {
+.green-btn:hover {
     background-color: transparent;
     color: var(--accent-light);
 }
 
-#contact-btn {
+.purple-btn {
     background-color: var(--accent-dark);
     border: 3px solid var(--accent-dark);
     color: var(--secondary-color);
-    right: 10px;   
 }
 
-#contact-btn:hover {
+.purple-btn:hover {
     background-color: transparent;
     color: var(--accent-dark);
+}
+
+#contact-btn {
+    right: 10px;
 }
 
 /*Footer*/
@@ -347,24 +346,17 @@ footer {
 }
 
 /*Media Queries*/
-/*Point at which title changes to 1 line (459px)*/
-@media screen and (min-width: 459px) {
-    #timetable-title h1 {
-        padding: 44px 0;
-    }
-}
 /*Tablets and larger (768px and above)*/
 @media screen and (min-width:768px) {
     /*Header*/
     header {
-        padding: 7px 10px;
+        padding: 7px 10px 7px 20px;
     }
-    
+
     nav {
         display: block;
         position: relative;
         width: fit-content;
-        padding-right: 10px;
         box-shadow: none;
     }
 
@@ -378,12 +370,11 @@ footer {
 
     #menu li {
         border-top: none;
-        margin-right: 1rem;
     }
 
     /*Main Content*/
     main {
-    margin-top: 53px;
+        margin-top: 53px;
     }
 
     /*Timetable Page*/
@@ -395,7 +386,7 @@ footer {
     #timetable-info p {
         flex-basis: 80%;
     }
-    
+
     #timetable-cards {
         display: flex;
         flex-flow: row wrap;
@@ -410,15 +401,16 @@ footer {
     .card p {
         min-height: 162px;
     }
-}    
+}
 
 /*Large Screens (992px and above)*/
 @media screen and (min-width: 992px) {
     #hero {
         height: 500px;
         background-position: center 75%;
-    }  
-    
+    }
+
+    /*Timetable page*/
     .card p {
         min-height: 143px;
     }
@@ -430,29 +422,17 @@ footer {
         border: none;
     }
 
+    /*Timetable Page*/
     .card {
         flex-basis: 400px;
     }
-} 
+}
 
 /*XL screens (1200px and above)*/
 @media screen and (min-width: 1200px) {
     /*Timetable Page*/
-    #timetable-title {
-        min-height: 300px;
-    }
-
-    #timetable-title > div {
-        min-height: 300px;
-    }
-
-    #timetable-title h1 {
-        padding: 120px 0;
-    }
-
     .card {
         flex-basis: 280px;
-        flex-grow: 1;
     }
 
     .card-heading {
