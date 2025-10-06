@@ -388,12 +388,12 @@ footer {
     }
 
     .card {
-        flex-basis: 350px;
+        flex-basis: 364px;
         flex-grow: 1;
     }
 
     .card p {
-        min-height: 143px;
+        min-height: 162px;
     }
 }    
 
@@ -402,13 +402,21 @@ footer {
     #hero {
         height: 500px;
         background-position: center 75%;
-    }    
+    }  
+    
+    .card p {
+        min-height: 143px;
+    }
 }
 
 /*Point at which 3 about divs form 1 row (1152px)*/
 @media screen and (min-width: 1152px) {
     #about div {
         border: none;
+    }
+
+    .card {
+        flex-basis: 400px;
     }
 } 
 
@@ -421,6 +429,10 @@ footer {
 
     .card-heading {
         text-align: center;
+    }
+
+    .card p {
+        min-height: 200px;
     }
 }
 
