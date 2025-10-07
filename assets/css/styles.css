@@ -283,8 +283,8 @@ main {
 
 #contact-info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 #contact-info h2 {
@@ -292,20 +292,7 @@ main {
 }
 
 #contact-info p {
-    flex-basis: 210px;
     padding-bottom: 10px;
-}
-
-#email {
-    font-size: 0.9rem;
-}
-
-#email i {
-    font-size: 1rem;
-}
-
-#map {
-    min-width: 100%;
 }
 
 /*Buttons*/
