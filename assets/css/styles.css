@@ -57,10 +57,25 @@ h1 {
     font-size: 1.2rem;
 }
 
+.page-title {
+    margin-top: 20px;
+    text-align: center;
+    min-width: 100%;
+    min-height: 250px;
+}
+
+.title-div {
+    background-color: rgba(33, 62, 83, 0.4);
+    padding: 108px 0;
+}
+
+.light-text {
+    color: var(--secondary-color);
+}
+
 /*Navbar*/
 header {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
     position: fixed;
     padding: 7px 10px;
     width: 100%;
@@ -185,7 +200,6 @@ main {
 }
 
 #club-info {
-    color: var(--secondary-color);
     background-color: var(--primary-color);
 }
 
@@ -199,30 +213,13 @@ main {
     width: 100%;
 }
 
-#rowing {
-    color: var(--primary-color);
-}
-
 #rowing h2 {
     color: var(--accent-dark);
 }
 
 /*Timetable Page*/
 #timetable-title {
-    margin-top: 20px;
-    text-align: center;
-    min-width: 100%;
     background: url(../images/timetable-title-image.webp) no-repeat center 35% / cover;
-    min-height: 250px;
-}
-
-#timetable-title>div {
-    background-color: rgba(33, 62, 83, 0.4);
-}
-
-#timetable-title h1 {
-    padding: 108px 0;
-    color: var(--secondary-color);
 }
 
 #timetable-info {
@@ -279,6 +276,34 @@ main {
     padding: 5px;
 }
 
+/*Contact Page*/
+#contact-title {
+    background: url(../images/contact-page-title.webp) no-repeat center center / cover;
+}
+
+#contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contact-info h2 {
+    padding: 15px 0;
+}
+
+#contact-info p {
+    flex-basis: 210px;
+    padding-bottom: 10px;
+}
+
+#email {
+    font-size: 0.9rem;
+}
+
+#email i {
+    font-size: 1rem;
+}
+
 /*Buttons*/
 .button {
     padding: 6px 12px;
@@ -321,7 +346,6 @@ main {
 /*Footer*/
 footer {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
     z-index: 99;
     box-shadow: 0 -4px 2px #0d1e2a;
 }
