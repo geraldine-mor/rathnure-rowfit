@@ -304,6 +304,10 @@ main {
     font-size: 1rem;
 }
 
+#map {
+    min-width: 100%;
+}
+
 /*Buttons*/
 .button {
     padding: 6px 12px;
