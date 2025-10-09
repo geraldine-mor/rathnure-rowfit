@@ -67,6 +67,7 @@ h1 {
 .title-div {
     background-color: rgba(33, 62, 83, 0.4);
     padding: 108px 0;
+    min-height: inherit;
 }
 
 .light-text {
@@ -293,6 +294,12 @@ main {
 
 #contact-info p {
     padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#map {
+    width: 100%;
 }
 
 /*Buttons*/
@@ -434,6 +441,34 @@ footer {
     .card p {
         min-height: 143px;
     }
+
+    /*Contact Page*/
+    #contact-title {
+        min-height: 450px;
+    }
+
+    #contact-title h1 {
+        padding-top: 67px;
+        font-size: 300%;
+    }
+    #contact-info {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    #contact-info > div {
+        flex-grow: 1;
+        flex-basis: 50%;
+    }
+
+    #contact-info h2 {
+        text-align: center;
+    }
+
+    #contact-info p {
+        margin-left: 20%;
+    }
+    
 }
 
 /*Point at which 3 about divs form 1 row (1152px)*/
