@@ -293,22 +293,25 @@ main {
 }
 
 #contact-form {
-    background-color: var(--primary-color);
     padding-bottom: 15px;
     display: flex;
+    background-color: rgba(33, 62, 83, 0.9);
 }
 
 .input-box {
     background-color: transparent;
     border: 2px solid var(--secondary-color);
     border-radius: 5px;
-    color: var(--secondary-color);
     width: 240px;
+    line-height: 1.2rem;
+    font-family: var(--body-font);
+    color: var(--secondary-color);
+    padding: 2px 4px;
 }
 
 .radio {
     background-color: transparent;
-    accent-color: var(--accent-light);
+    accent-color: #D072FF;
 }
 
 .label {
@@ -341,12 +344,15 @@ main {
     text-decoration: none;
 }
 
+.about-btn {
+    position: absolute;
+    bottom: 1rem;
+}
+
 .green-btn {
     background-color: var(--accent-light);
     border: 3px solid var(--accent-light);
     color: var(--primary-color);
-    position: absolute;
-    bottom: 1rem;
 }
 
 .green-btn:hover {
@@ -358,13 +364,22 @@ main {
     background-color: var(--accent-dark);
     border: 3px solid var(--accent-dark);
     color: var(--secondary-color);
-    position: absolute;
-    bottom: 1rem;
 }
 
 .purple-btn:hover {
     background-color: transparent;
     color: var(--accent-dark);
+}
+
+.blue-btn {
+    background-color: var(--highlight);
+    border: 3px solid var(--highlight);
+    color: var(--primary-color);
+}
+
+.blue-btn:hover {
+    background-color: transparent;
+    color: var(--highlight);
 }
 
 #contact-btn {
@@ -519,7 +534,7 @@ footer {
 
 /*XL screens (1200px and above)*/
 @media screen and (min-width: 1200px) {
-    /*Timetable Page*/
+    /*Timetable Page*/ 
     .card {
         flex-basis: 280px;
     }
