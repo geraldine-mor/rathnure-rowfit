@@ -47,14 +47,15 @@
         <section id="contact-form" class="light-text">
             <h2>Contact Us</h2>
             <form method="GET" action="#">
+                <!--Addition of autocomplete attribute set to off to prevent autofill !important browser styles being applied - credit chatgpt-->
                 <label for="full-name" class="label">Full Name</label>
-                <input id="full-name" type="text" name="full-name" class="input-box" required>
+                <input id="full-name" type="text" name="full-name" autocomplete="off" class="input-box" required>
                 <label for="email" class="label">Email Address</label>
-                <input id="email" type="email" name="email" class="input-box" required>
+                <input id="email" type="email" name="email" autocomplete="off" class="input-box" required>
                 <label for="phone-number" class="label">Phone Number</label>
-                <input id="phone-number" type="number" name="phone-number" class="input-box" required>
+                <input id="phone-number" type="number" name="phone-number" autocomplete="off" class="input-box" required>
                 <label for="enquiry-type" class="label">Type of enquiry</label>
-                <input id="enquiry-type" list="type" class="input-box light-text" required>
+                <input id="enquiry-type" list="type" autocomplete="off" class="input-box light-text" required>
                     <datalist id="type" class="input-box" required>
                         <option value="Existing member"></option>
                         <option value="I want to join"></option>
@@ -62,7 +63,7 @@
                         <option value="Other">Please specify</option>
                     </datalist>
                 <label for="message" class="label">Message the Club</label>
-                <textarea id="message" rows="4" name="message" class="input-box" required></textarea>
+                <textarea id="message" rows="4" name="message" autocomplete="off" class="input-box" required></textarea>
                 <div id="radio">
                     <p>Please sign up to our newsletter:</p>
                     <label for="newsletter-yes">Yes</label>
