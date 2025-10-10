@@ -316,7 +316,7 @@ main {
 
 .label {
     display: block;
-    padding-top: 5px;
+    padding: 8px 0 5px 0;
 }
 
 #contact-info p {
@@ -535,7 +535,7 @@ footer {
     }
 
     #form-end {
-        padding-top: 1.5rem;
+        padding-top: 2rem;
     }
 }
 
