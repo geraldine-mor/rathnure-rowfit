@@ -370,10 +370,6 @@ main {
     background-color: rgba(235, 236, 240, 0.6);
     flex: 1 0 auto;
     text-align: center;
-    padding: 0 0 15px 0;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-end;
 }
 
 #oops h1 {
