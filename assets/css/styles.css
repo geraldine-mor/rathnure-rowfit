@@ -368,7 +368,7 @@ main {
 }
 
 #oops {
-    background-color: rgba(235, 236, 240, 0.4);
+    background-color: rgba(235, 236, 240, 0.7);
     flex: 1 0 auto;
     text-align: center;
 }
