@@ -522,6 +522,21 @@ footer {
     .card p {
         min-height: 162px;
     }
+
+    /*Contact page*/
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .row {
+       columns: 2;
+    }
+
+    #form-end {
+        padding-top: 1.5rem;
+    }
 }
 
 /*Large Screens (992px and above)*/
