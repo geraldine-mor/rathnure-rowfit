@@ -333,6 +333,32 @@ main {
     width: 100%;
 }
 
+/*Success page*/
+#success-page {
+    background: url(../images/success.webp) no-repeat center center / cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#success {
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 0 0 15px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+.padding-b {
+    padding-bottom: 15px;
+}
+
+#success-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
 /*Buttons*/
 .button {
     padding: 6px 12px;
