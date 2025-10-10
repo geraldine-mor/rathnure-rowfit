@@ -364,10 +364,11 @@ main {
     background: url(../images/machines-not-in-use.webp) no-repeat center center / cover;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #oops {
-    background-color: rgba(235, 236, 240, 0.6);
+    background-color: rgba(235, 236, 240, 0.4);
     flex: 1 0 auto;
     text-align: center;
 }
