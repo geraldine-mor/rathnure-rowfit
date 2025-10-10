@@ -359,6 +359,27 @@ main {
     gap: 80px;
 }
 
+/*404 page*/
+#oops-page {
+    background: url(../images/machines-not-in-use.webp) no-repeat center center / cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#oops {
+    background-color: rgba(235, 236, 240, 0.6);
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 0 0 15px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+#oops h1 {
+    color: var(--accent-dark);
+}
+
 /*Buttons*/
 .button {
     padding: 6px 12px;
