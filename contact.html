@@ -46,7 +46,7 @@
         </section>
         <section id="contact-form" class="light-text">
             <h2>Contact Us</h2>
-            <form method="GET" action="#">
+            <form method="GET" action="success.html">
                 <!--Addition of autocomplete attribute set to off to prevent autofill !important browser styles being applied - credit chatgpt-->
                 <label for="full-name" class="label">Full Name</label>
                 <input id="full-name" type="text" name="full-name" autocomplete="off" class="input-box" required>
@@ -58,6 +58,7 @@
                 <input id="enquiry-type" list="type" autocomplete="off" class="input-box light-text" required>
                     <datalist id="type" class="input-box" required>
                         <option value="Existing member"></option>
+                        <option value="Membership enquiry"></option>
                         <option value="I want to join"></option>
                         <option value="Class information"></option>
                         <option value="Other">Please specify</option>
