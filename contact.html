@@ -39,7 +39,7 @@
 
     <!--Main Content-->
     <main id="contact-page">
-        <section id="contact-title" class="page-title">
+        <section id="contact-title">
             <div class="title-div">
                 <h1 class="light-text">Get in Touch</h1>
             </div>
@@ -48,7 +48,7 @@
             <h2>Contact Us</h2>
             <form method="GET" action="success.html" class="container">
                 <!--Addition of autocomplete attribute set to off to prevent autofill !important browser styles being applied - credit chatgpt-->
-                <div class="row padding-b">
+                <div class="row">
                     <label for="full-name" class="label">Full Name</label>
                     <input id="full-name" type="text" name="full-name" autocomplete="off" class="input-box" required>
                     <label for="email" class="label">Email Address</label>
@@ -72,7 +72,7 @@
                         required></textarea>
                     <div id="form-end">
                         <div id="radio">
-                            <p>Please sign up to our newsletter:</p>
+                            <p class="label">Please sign up to our newsletter:</p>
                             <label for="newsletter-yes">Yes</label>
                             <input id="newsletter-yes" type="radio" name="newsletter" value="yes" class="radio" checked>
                             <label for="newsletter-no">No</label>

@@ -279,7 +279,8 @@ main {
 
 /*Contact Page*/
 #contact-title {
-    background: url(../images/contact-page-title.webp) no-repeat center center / cover;
+    background: url(../images/contact-page-title.webp) no-repeat center top / cover;
+    text-align: center;
 }
 
 #contact-page h2 {
@@ -526,8 +527,8 @@ footer {
     /*Contact page*/
     .container {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
+        flex-flow: column;
+        align-items: center;
     }
 
     .row {
@@ -535,7 +536,7 @@ footer {
     }
 
     #form-end {
-        padding-top: 2rem;
+        padding-top: 1.3rem;
     }
 }
 
@@ -576,8 +577,11 @@ footer {
 
     #contact-info p {
         margin-left: 20%;
+    } 
+
+    .row {
+        gap: 60px;
     }
-    
 }
 
 /*Point at which 3 about divs form 1 row (1152px)*/
