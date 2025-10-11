@@ -171,8 +171,7 @@ main {
     position: absolute;
     top: 20px;
     text-align: center;
-    background-color: rgba(235, 236, 240, 0.7);
-    /*Secondary color converted to rgb using https://htmlcolorcodes.com/hex-to-rgb/*/
+    background-color: rgba(235, 236, 240, 0.7); /*Secondary color converted to rgb using https://htmlcolorcodes.com/hex-to-rgb/*/
     min-width: 100%;
 }
 
@@ -295,13 +294,17 @@ main {
 #price-table {
     text-align: center;
     font-size: 0.9rem;
+    margin: auto;
 }
 
 #price-table, th, td {
     border: 2px solid var(--accent-light);
     border-collapse: collapse;
-    padding: 0 2px;
 } 
+
+th, td {
+    padding: 0 2px;
+}
 
 th, .row-h {
     font-weight: 500;
@@ -310,13 +313,19 @@ th, .row-h {
 
 #pricing p {
     padding: 10px;
+    text-align: center;
 }
 
 #pricing-contact {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: auto;
     margin-bottom: 15px;
+}
+
+#pricing-contact a {
+   display: inline-block;
 }
 
 /*Gallery Page*/
@@ -516,8 +525,17 @@ footer {
 
 /*Media Queries*/
 /*Large or landscape phones (576px and above)*/
-/*Gallery Page*/
 @media screen and (min-width: 576px) {
+    /*Timetable Page*/
+    #price-table * {
+        font-size: 1rem;
+    }
+
+    #pricing p {
+        text-align: center;
+    }
+    
+    /*Gallery Page*/
     #images {
         columns: 2;
         gap: 3px;
