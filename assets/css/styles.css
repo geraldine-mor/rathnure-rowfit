@@ -527,10 +527,10 @@ footer {
         flex-basis: 80%;
     }
 
-    #timetable-cards {
+    #row-a, #row-b {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: nowrap;
     }
 
     .card {
@@ -613,18 +613,17 @@ footer {
         border: none;
         align-self: stretch;
     }
-
-    /*Timetable Page*/
-    .card {
-        flex-basis: 400px;
-    }
 }
 
 /*XL screens (1200px and above)*/
 @media screen and (min-width: 1200px) {
-    /*Timetable Page*/ 
-    .card {
-        flex-basis: 280px;
+    /*Timetable Page*/
+    #timetable-cards {
+        display: flex;
+    } 
+
+    #row-a, #row-b {
+        width: 50%;  
     }
 
     .card-heading {
