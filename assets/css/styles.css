@@ -260,7 +260,7 @@ main {
 
 #social-hike {
     background: url(../images/social-hike.webp) no-repeat center top / cover;
-    color: var(--primary-color);
+    color: #fd8fad;
 }
 
 .card-heading {
@@ -272,8 +272,7 @@ main {
     width: 100%;
 }
 
-#circuits .card-heading,
-#social-hike .card-heading {
+#circuits .card-heading {
     background-color: rgba(235, 236, 240, 0.6);
 }
 
