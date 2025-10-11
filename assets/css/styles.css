@@ -122,6 +122,10 @@ header a {
     color: var(--accent-light);
 }
 
+.pink-hover:hover {
+    color: #fd8fad; /*Pink*/
+}
+
 nav {
     background-color: var(--primary-color);
     position: absolute;
@@ -527,7 +531,7 @@ footer {
     /*Contact page*/
     .container {
         display: flex;
-        flex-flow: column;
+        flex-flow: column nowrap;
         align-items: center;
     }
 
@@ -588,6 +592,7 @@ footer {
 @media screen and (min-width: 1152px) {
     #about div {
         border: none;
+        align-self: stretch;
     }
 
     /*Timetable Page*/
