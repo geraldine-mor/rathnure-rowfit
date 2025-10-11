@@ -280,6 +280,45 @@ main {
     padding: 5px;
 }
 
+#pricing {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#pricing > h2 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#price-table {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#price-table, th, td {
+    border: 2px solid var(--accent-light);
+    border-collapse: collapse;
+    padding: 0 2px;
+} 
+
+th, .row-h {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+#pricing p {
+    padding: 10px;
+}
+
+#pricing-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
 /*Gallery Page*/
 #images img {
     width: 100%;
