@@ -281,6 +281,11 @@ main {
     padding: 5px;
 }
 
+/*Gallery Page*/
+#images img {
+    width: 100%;
+}
+
 /*Contact Page*/
 #contact-title {
     background: url(../images/contact-page-title.webp) no-repeat center top / cover;
@@ -472,6 +477,15 @@ footer {
 }
 
 /*Media Queries*/
+/*Large or landscape phones (576px and above)*/
+/*Gallery Page*/
+@media screen and (min-width: 576px) {
+    #images {
+        columns: 2;
+        gap: 3px;
+    }
+}
+
 /*Tablets and larger (768px and above)*/
 @media screen and (min-width:768px) {
     /*Header*/
@@ -526,6 +540,11 @@ footer {
 
     .card p {
         min-height: 162px;
+    }
+
+    /*Gallery Page*/
+    #images {
+        columns: 3;
     }
 
     /*Contact page*/
@@ -614,6 +633,11 @@ footer {
 
     .card p {
         min-height: 200px;
+    }
+    
+    /*Gallery Page*/
+    #images {
+        columns: 4;
     }
 }
 
