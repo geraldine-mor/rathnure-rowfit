@@ -227,6 +227,48 @@ main {
     color: var(--accent-dark);
 }
 
+/*Testimonials Section*/
+#testimonials {
+    text-align: center;
+    background-color: rgba(179, 245, 66, 0.8);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.t-card {
+    margin: 20px auto;
+    height: fit-content;
+    max-width: 80%;
+    box-shadow: 0 0 10px var(--primary-color);
+    border-radius: 10px;
+    position: relative;
+    text-align: start;
+    padding: 10px;
+    background-color: var(--secondary-color);
+}
+
+.profile {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#first-tc {
+    background: url(../images/louise-h-profile.webp) no-repeat 20% 10% / 200%;
+}
+
+.name { 
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.name ~ p {
+    margin-top: 70px;
+}
 /*Timetable Page*/
 #timetable-title {
     background: url(../images/timetable-title-image.webp) no-repeat center 35% / cover;
