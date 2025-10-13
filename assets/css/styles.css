@@ -435,6 +435,10 @@ th, .row-h {
     color: var(--accent-dark);
 }
 
+#oops > div {
+    margin-top: 15px;
+}
+
 /*Buttons*/
 .button {
     padding: 6px 12px;
@@ -483,6 +487,18 @@ th, .row-h {
     background-color: transparent;
     color: var(--highlight);
 }
+
+.dark-btn {
+    background-color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.dark-btn:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
 
 #contact-btn {
     right: 10px;
@@ -542,8 +558,8 @@ footer {
     }
 
     /*404 page*/
-    #oops > div {
-        gap: 30px;
+    #oops a {
+        margin: 8px;
     }
 }
 
