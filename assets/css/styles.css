@@ -717,6 +717,11 @@ footer {
         background-position: center 75%;
     }
 
+    /*Testimonials section*/
+    .t-card {
+        height: 170px;
+    }
+
     /*Timetable page*/
     .card p {
         min-height: 143px;
@@ -764,6 +769,15 @@ footer {
 
 /*XL screens (1200px and above)*/
 @media screen and (min-width: 1200px) {
+    /*Testimonials section*/
+    #t-container {
+        display: flex;
+    }
+
+    .t-card {
+        height: 230px;
+    }
+    
     /*Timetable Page*/
     #timetable-cards {
         display: flex;
@@ -799,5 +813,10 @@ footer {
 @media screen and (min-width: 1400px) {
     #hero {
         height: 650px;
+    }
+
+    /*Testimonials section*/
+    .t-card {
+        height: 185px;
     }
 }
