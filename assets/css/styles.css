@@ -656,6 +656,20 @@ footer {
         margin-top: 53px;
     }
 
+    /*Testimonials Section*/
+    #row-a, #row-b {
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+    }  
+    
+    .t-card {
+        margin: 20px;
+        flex-grow: 1;
+        flex-basis: 364px;
+        height: 185px;
+    }
+
     /*Timetable Page*/
     #timetable-info {
         display: flex;
@@ -664,12 +678,6 @@ footer {
 
     #timetable-info p {
         flex-basis: 80%;
-    }
-
-    #row-a, #row-b {
-        display: flex;
-        width: 100%;
-        flex-wrap: nowrap;
     }
 
     .card {
