@@ -689,6 +689,14 @@ footer {
     .card p {
         min-height: 200px;
     }
+
+    #price-table * {
+        font-size: 1.5rem;
+    }
+
+    #pricing-contact * {
+        font-size: 1.3rem;
+    }
     
     /*Gallery Page*/
     #images {
