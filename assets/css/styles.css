@@ -540,6 +540,11 @@ footer {
         columns: 2;
         gap: 3px;
     }
+
+    /*404 page*/
+    #oops > div {
+        gap: 30px;
+    }
 }
 
 /*Tablets and larger (768px and above)*/
