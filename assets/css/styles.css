@@ -260,6 +260,18 @@ main {
     background: url(../images/louise-h-profile.webp) no-repeat 20% 10% / 200%;
 }
 
+#second-tc {
+    background: url(../images/niall-s-profile.webp) no-repeat center center / cover;
+}
+
+#third-tc {
+    background: url(../images/gemma-b-profile.webp) no-repeat center center / cover;
+}
+
+#fourth-tc {
+    background: url(../images/joanne-r-profile.webp) no-repeat 40% 30% / 500%;
+}
+
 .name { 
     position: absolute;
     top: 30px;
@@ -269,6 +281,7 @@ main {
 .name ~ p {
     margin-top: 70px;
 }
+
 /*Timetable Page*/
 #timetable-title {
     background: url(../images/timetable-title-image.webp) no-repeat center 35% / cover;
