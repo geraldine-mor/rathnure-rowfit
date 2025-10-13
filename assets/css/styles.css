@@ -87,6 +87,12 @@ header {
     z-index: 99;
 }
 
+#nav-text {
+    font-family: var(--heading-font);
+    flex-grow: 2;
+    padding-left: 10px;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
