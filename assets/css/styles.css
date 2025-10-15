@@ -580,18 +580,21 @@ footer {
     background-color: var(--primary-color);
     z-index: 99;
     box-shadow: 0 -4px 2px #0d1e2a;
+    position: relative;
 }
 
 #social-links {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 15px;
 }
 
 #social-links i {
     color: var(--secondary-color);
     font-size: 1.5rem;
     padding: 10px;
+    align-self: center;
 }
 
 #facebook:hover {
@@ -604,6 +607,14 @@ footer {
 
 #tiktok:hover {
     color: var(--accent-light);
+}
+
+.small {
+    font-size: 0.8rem;
+    text-align: end;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
 
 /*Media Queries*/
@@ -761,6 +772,11 @@ footer {
 
     .row {
         gap: 60px;
+    }
+
+    /*Footer*/
+    #social-links {
+        margin-bottom: 0;
     }
 }
 
