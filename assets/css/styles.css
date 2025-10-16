@@ -453,7 +453,7 @@ th, .row-h {
     justify-content: space-between;
 }
 
-#map {
+#map, iframe {
     width: 100%;
 }
 
@@ -565,6 +565,7 @@ th, .row-h {
     background-color: transparent;
     color: var(--primary-color);
 }
+
 
 #contact-btn {
     right: 10px;

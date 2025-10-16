@@ -30,14 +30,14 @@ It's recommended to validate the live pages (all of them) using the deployed URL
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-| Directory | File | URL | Screenshot | Notes |
-| --- | --- | --- | --- | --- |
-|  | [404.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/404.html) | ![screenshot](documentation/validation/html--404.png) | ⚠️ Notes (if applicable) |
-|  | [contact.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/contact.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/contact.html) | ![screenshot](documentation/validation/html--contact.png) | ⚠️ Notes (if applicable) |
-|  | [gallery.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/gallery.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/gallery.html) | ![screenshot](documentation/validation/html--gallery.png) | ⚠️ Notes (if applicable) |
-|  | [index.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/index.html) | ![screenshot](documentation/validation/html--index.png) | ⚠️ Notes (if applicable) |
-|  | [success.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/success.html) | ![screenshot](documentation/validation/html--success.png) | ⚠️ Notes (if applicable) |
-|  | [timetable.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/timetable.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/timetable.html) | ![screenshot](documentation/validation/html--timetable.png) | ⚠️ Notes (if applicable) |
+| File | URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| [404.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/404.html) | ![screenshot](documentation/validation/html--404.png) | ⚠️ Notes (if applicable) |
+| [contact.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/contact.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/contact.html) | ![screenshot of contact page errors](documentation/testing/contact-page-errors.png) | html validation showed 3 errors these were easy fixes and retesting showed no errors |
+| [gallery.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/gallery.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/gallery.html) | ![screenshot of no errors message](documentation/testing/gallery-validation.png) | ⚠️ Notes (if applicable) |
+| [index.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/index.html) | ![screenshot of errors](documentation/testing/homepage-code-validation-errors.png) ![screenshot of trailing slash info messages](documentation/testing/trailing-slash-message.png) ![screenshot of no errors message](documentation/testing/index-validation.png) | Initial validation testing upon completion of the index page showed sevseral issues which were remedied. Accidentally formatting the document with Prettily created trailing slashes which have now been removed |
+| [success.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/success.html) | ![screenshot](documentation/validation/html--success.png) | ⚠️ Notes (if applicable) |
+| [timetable.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/timetable.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/timetable.html) | ![screenshot of no erros message](documentation/testing/timetable-validation.png) |  |
 
 
 ### CSS
