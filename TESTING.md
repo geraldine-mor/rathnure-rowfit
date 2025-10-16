@@ -5,96 +5,40 @@
 
 ## Code Validation
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use the space below to discuss code validation for all of your own code files (*where applicable*). You are not required to validate external libraries/frameworks.
-
-**MANDATORY**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Where possible, always validate the live URL pages/files, not your local code using copy/paste. There could be subtle/hidden differences.
-
-⚠️ --- END --- ⚠️
-
 ### HTML
-
-⚠️ INSTRUCTIONS ⚠️
-
-1. [*recommended*] If you are using the live deployed site URLs, validate using this link: https://validator.w3.org/#validate_by_uri
-2. Otherwise, if you are copying/pasting your HTML code manually, use this link: https://validator.w3.org/#validate_by_input
-
-It's recommended to validate the live pages (all of them) using the deployed URL. This will give you a custom URL as well, which you can use below on your testing documentation. It makes it easier to return back to a page for validating it again in the future. The URL will look something like this:
-
-- https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/index.html
-
-⚠️ --- END --- ⚠️
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
 | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| [404.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/404.html) | ![screenshot](documentation/validation/html--404.png) | ⚠️ Notes (if applicable) |
-| [contact.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/contact.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/contact.html) | ![screenshot of contact page errors](documentation/testing/contact-page-errors.png) | html validation showed 3 errors these were easy fixes and retesting showed no errors |
-| [gallery.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/gallery.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/gallery.html) | ![screenshot of no errors message](documentation/testing/gallery-validation.png) | ⚠️ Notes (if applicable) |
-| [index.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/index.html) | ![screenshot of errors](documentation/testing/homepage-code-validation-errors.png) ![screenshot of trailing slash info messages](documentation/testing/trailing-slash-message.png) ![screenshot of no errors message](documentation/testing/index-validation.png) | Initial validation testing upon completion of the index page showed sevseral issues which were remedied. Accidentally formatting the document with Prettily created trailing slashes which have now been removed |
-| [success.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/success.html) | ![screenshot](documentation/validation/html--success.png) | ⚠️ Notes (if applicable) |
+| [404.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/404.html) | ![screenshot of no errors message](documentation/testing/404-validation.png) |  |
+| [contact.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/contact.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/contact.html) | ![screenshot of contact page errors](documentation/testing/contact-page-errors.png) ![screenshot of no errors message](documentation/testing/contact-validation.png) | html validation showed 3 errors these were easy fixes and retesting showed no errors |
+| [gallery.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/gallery.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/gallery.html) | ![screenshot of no errors message](documentation/testing/gallery-validation.png) | |
+| [index.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/index.html) | ![screenshot of errors](documentation/testing/homepage-code-validation-errors.png) ![screenshot of trailing slash info messages](documentation/testing/trailing-slash-message.png) ![screenshot of no errors message](documentation/testing/index-validation.png) | Initial validation testing showed some issues which were fixed. Accidentally formatting the document with Prettily created trailing slashes which have now been removed |
+| [success.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/success.html) | ![screenshot of no errors message](documentation/testing/success-validation.png) |  |
 | [timetable.html](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/timetable.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://geraldine-mor.github.io/rathnure-rowfit/timetable.html) | ![screenshot of no erros message](documentation/testing/timetable-validation.png) |  |
 
-
 ### CSS
-
-⚠️ INSTRUCTIONS ⚠️
-
-1. [*recommended*] If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
-2. If you are copying/pasting your CSS code, use this link: https://jigsaw.w3.org/css-validator/#validate_by_input
-
-It's recommended to validate the live site for your primary CSS file on the deployed URL. This will give you a custom URL as well, which you can use below on your testing documentation. It makes it easier to return back to a page for validating it again in the future. The URL will look something like this:
-
-- https://jigsaw.w3.org/css-validator/validator?uri=https://geraldine-mor.github.io/rathnure-rowfit
-
-If you have additional/multiple CSS files, then individual "[validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)" is recommended for the extra CSS files.
-
-**IMPORTANT**: Third-Party tools
-
-If you're using external libraries/frameworks (e.g: Bootstrap, Materialize, Font Awesome, etc.), then sometimes the tool will attempt to also validate these, even though it's not part of your own actual code that you wrote. You are not required to validate the external libraries or frameworks!
-
-⚠️ --- END --- ⚠️
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [styles.css](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/assets/css/styles.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://geraldine-mor.github.io/rathnure-rowfit) | ![screenshot](documentation/validation/css-assets-styles.png) | ⚠️ Notes (if applicable) |
+| assets | [styles.css](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/assets/css/styles.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://geraldine-mor.github.io/rathnure-rowfit) | ![screenshot](documentation/testing/css-validation.png) |  |
 
 
 ## Responsiveness
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is to test the following 3 sizes:
-
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of your results, to "prove" that you've actually tested them.
-
-Using the [amiresponsive](http://ami.responsivedesign.is) mockup images (*or similar*) does not meet the requirements. Consider using some of the built-in device sizes from the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well. It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-⚠️ --- END --- ⚠️
 
 I've tested my deployed project to check for responsiveness issues.
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/responsiveness/mobile-home.png) | ![screenshot](documentation/responsiveness/tablet-home.png) | ![screenshot](documentation/responsiveness/desktop-home.png) | Works as expected |
-| Gallery | ![screenshot](documentation/responsiveness/mobile-gallery.png) | ![screenshot](documentation/responsiveness/tablet-gallery.png) | ![screenshot](documentation/responsiveness/desktop-gallery.png) | Works as expected |
-| Signup | ![screenshot](documentation/responsiveness/mobile-signup.png) | ![screenshot](documentation/responsiveness/tablet-signup.png) | ![screenshot](documentation/responsiveness/desktop-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/responsiveness/mobile-confirmation.png) | ![screenshot](documentation/responsiveness/tablet-confirmation.png) | ![screenshot](documentation/responsiveness/desktop-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/responsiveness/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop-404.png) | Works as expected |
+| Home | ![screenshot of home page mobile view](documentation/testing/home-mobile.png) | ![screenshot of home page tablet view](documentation/testing/home-tablet.png) | ![screenshot of home page desktop view](documentation/testing/home-desktop.png) | Displays as expected on mobile, tablet and desktop screens. All links work as expected. |
+| Timetable | ![screenshot of timetable page mobile view](documentation/testing/timetable-mobile.png) | ![screenshot of timetable page tablet view](documentation/testing/timetable-tablet.png) | ![screenshot of timetable page desktop view](documentation/testing/timetable-desktop.png) | Displays as expected on mobile, tablet and desktop screens. All links work as expected. |
+| Gallery | ![screenshot of gallery page mobile view](documentation/testing/gallery-mobile.png) | ![screenshot of gallery page tablet view](documentation/testing/gallery-tablet.png) | ![screenshot of gallery page desktop view](documentation/testing/gallery-desktop.png) | Displays as expected on mobile, tablet and desktop screens. Header and footer links work as expected. |
+| Contact | ![screenshot of contact page mobile view](documentation/testing/contact-mobile.png) | ![screenshot of contact page tablet view](documentation/testing/contact-tablet.png) | ![screenshot of contact page desktop view](documentation/testing/contact-desktop.png) | Displays as expected on mobile, tablet and desktop screens. All form fields are required, buttons and links work as expected. |
+| Success | ![screenshot of success page mobile view](documentation/testing/success-mobile.png) | ![screenshot of success page tablet view](documentation/testing/success-tablet.png) | ![screenshot of success page desktop view](documentation/testing/success-desktop.png) | Displays as expected on all sizes, all links work as expected. |
+| 404 | ![screenshot of 404 page mobile view](documentation/testing/404-mobile.png) | ![screenshot of 404 page tablet view](documentation/testing/404-tablet.png) | ![screenshot of 404 page desktop view](documentation/testing/404-desktop.png) | Displays as expected on all sizes, all links work as expected. |
 
 ## Browser Compatibility
 
@@ -269,8 +213,8 @@ Any remaining open issues can be tracked [here](https://www.github.com/geraldine
 
 | Issue | Screenshot |
 | --- | --- |
-| The project is designed to be responsive from `375px` and upwards, in line with the material taught on the course LMS. Minor layout inconsistencies may occur on extra-wide (e.g. 4k/8k monitors), or smart-display devices (e.g. Nest Hub, Smart Watches, Gameboy Color, etc.), as these resolutions are outside the project’s scope, as taught by Code Institute. | ![screenshot](documentation/issues/poor-responsiveness.png) |
-| When validating HTML with a semantic `<section>` element, the validator warns about lacking a header `h2-h6`. This is acceptable. | ![screenshot](documentation/issues/section-header.png) |
+| The project is designed to be responsive from `320px` and upwards, in line with the material taught on the course LMS. Minor layout inconsistencies may occur on extra-wide (e.g. 4k/8k monitors), or smart-display devices (e.g. Nest Hub, Smart Watches, Gameboy Color, etc.), as these resolutions are outside the project’s scope, as taught by Code Institute. | ![screenshot](documentation/issues/poor-responsiveness.png) |
+| When validating the css, there were warnings about the css variables not being checked due to their dynamic nature. This is acceptable | ![screenshot of css warnings](documentation/testing/css-warnings.png) |
 
 > [!IMPORTANT]  
 > There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.
