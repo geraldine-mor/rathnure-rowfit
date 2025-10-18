@@ -57,33 +57,16 @@ I tested the deployed site on 3 different devices: an iphone SE 2020, a Samsung 
 
 ## Browser Compatibility
 
-⚠️ INSTRUCTIONS ⚠️
+I tested my deployed project on 3 different browsers to  check for compatibility issues. There were minor differences on the contact form described below but as these are browser default settings, I am happy that the project still looks and functions as intended across all 3 browsers.
 
-Use this space to discuss testing the live/deployed site on various browsers. Consider testing at least 3 different browsers, if available on your system. You DO NOT need to use all of the browsers below, just pick any 3 (minimum).
-
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
-
-**IMPORTANT**: You must provide screenshots of the browsers you've tested, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time. Some of these are paid services, but some are free. If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-⚠️ --- END --- ⚠️
-
-I've tested my deployed project on multiple browsers to check for compatibility issues.
-
-| Page | Chrome | Firefox | Safari | Notes |
+| Page | Chrome | Firefox | Safari (on iphone) | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/safari-home.png) | Works as expected |
-| Gallery | ![screenshot](documentation/browsers/chrome-gallery.png) | ![screenshot](documentation/browsers/firefox-gallery.png) | ![screenshot](documentation/browsers/safari-gallery.png) | Works as expected |
-| Signup | ![screenshot](documentation/browsers/chrome-signup.png) | ![screenshot](documentation/browsers/firefox-signup.png) | ![screenshot](documentation/browsers/safari-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/browsers/chrome-confirmation.png) | ![screenshot](documentation/browsers/firefox-confirmation.png) | ![screenshot](documentation/browsers/safari-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
+| Home | ![screenshot of homepage on chrome](documentation/testing/chrome-home.png) | ![screenshot of homepage on firefox](documentation/testing/firefox-home.png) | ![screenshot of homepage on safari](documentation/testing/safari-home.png) | Works as expected |
+| Timetable | ![screenshot of timetable on chrome](documentation/testing/chrome-timetable.png) | ![screenshot of timetable on firefox](documentation/testing/firefox-timetable.png) | ![screenshot of timetable on safari](documentation/testing/mobile-test-timetable.png) | Works as expected |
+| Gallery | ![screenshot of gallery on chrome](documentation/testing/chrome-gallery.png) | ![screenshot of gallery on firefox](documentation/testing/firefox-gallery.png) | ![screenshot of gallery on safari](documentation/testing/mobile-test-gallery.png) | Works as expected |
+| Contact | ![screenshot of contact form on chrome](documentation/testing/chrome-contact.png) | ![screenshot of contact form on firefox](documentation/testing/firefox-contact.png) | ![screenshot of contact form on safari](documentation/testing/safari-contact.png) | All 3 browsers display the form field required message slightly differently and also the radio button has subtle differences across all 3 browsers. These differences are acceptable. |
+| Success | ![screenshot of success page on chrome](documentation/testing/chrome-success.png) | ![screenshot of success page on firefox](documentation/testing/firefox-success.png) | ![screenshot of success page on safari](documentation/testing/mobile-test-success.png) | Works as expected |
+| 404 | ![screenshot of 404 page on chrome](documentation/testing/chrome-404.png) | ![screenshot of 404 page on firefox](documentation/testing/firefox-404.png) | ![screenshot of 404 page on safari](documentation/testing/mobile-test-404.png) | Works as expected |
 
 ## Lighthouse Audit
 
