@@ -80,7 +80,7 @@ Unless your project is a single-page application (SPA), you should test Lighthou
 
 ⚠️ --- END --- ⚠️
 
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. There was an accessibilty issue on teh timetable page which has been corrected and is decribed further in bugs. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
 
 | Page | Mobile | Desktop |
 | --- | --- | --- |
