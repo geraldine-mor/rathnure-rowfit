@@ -29,7 +29,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ## Responsiveness
 
-I've tested my deployed project to check for responsiveness issues.
+I tested my deployed project to check for responsiveness issues.
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
@@ -39,6 +39,21 @@ I've tested my deployed project to check for responsiveness issues.
 | Contact | ![screenshot of contact page mobile view](documentation/testing/contact-mobile.png) | ![screenshot of contact page tablet view](documentation/testing/contact-tablet.png) | ![screenshot of contact page desktop view](documentation/testing/contact-desktop.png) | Displays as expected on mobile, tablet and desktop screens. All form fields are required, buttons and links work as expected. |
 | Success | ![screenshot of success page mobile view](documentation/testing/success-mobile.png) | ![screenshot of success page tablet view](documentation/testing/success-tablet.png) | ![screenshot of success page desktop view](documentation/testing/success-desktop.png) | Displays as expected on all sizes, all links work as expected. |
 | 404 | ![screenshot of 404 page mobile view](documentation/testing/404-mobile.png) | ![screenshot of 404 page tablet view](documentation/testing/404-tablet.png) | ![screenshot of 404 page desktop view](documentation/testing/404-desktop.png) | Displays as expected on all sizes, all links work as expected. |
+
+## Device Testing
+
+I tested the deployed site on 3 different devices: an iphone SE 2020, a Samsung Galaxy Tab S7 and a Windows laptop with additional xxl scren. All pages rendered as expected and all links and buttons worked as intended. 
+>Screen sizes were taken from [viewportsizer.com](https://viewportsizer.com/what-is-my-screen-size/). 
+
+|  | iPhone SE (2020) | Samsung Galaxy Tab S7 | Windows 10 Laptop | Additional Dell Monitor |
+| --- | --- | --- | --- | --- |
+| Size| 375 x 544 | 753 x 1068 | 1351 x 607| 1665 x 923 |
+| Home | ![screenshot of homepage with menu options on mobile](documentation/testing/mobile-test-menu.png) | ![screenshot of homepage on tablet](documentation/testing/tablet-test-home.jpg) | ![screenshot of homepage on desktop](documentation/testing/desktop-test-home.png) | ![screenshot of homepage on xxl screen](documentation/testing/xxl-test-home.png) |
+| Timetable | ![screenshot of timetable on mobile](documentation/testing/mobile-test-timetable.png) | ![screenshot of timetable on tablet](documentation/testing/tablet-test-timetable.jpg) | ![screenshot of timetable on desktop](documentation/testing/desktop-test-timetable.png) | ![screenshot of timetable on xxl screen](documentation/testing/xxl-test-timetable.png) |
+| Gallery | ![screenshot of gallery on mobile](documentation/testing/mobile-test-gallery.png) | ![screenshot of gallery on tablet](documentation/testing/tablet-test-gallery.jpg) | ![screenshot of gallery on desktop](documentation/testing/desktop-test-gallery.png) | ![screenshot of gallery on xxl screen](documentation/testing/xxl-test-gallery.png) |
+| Contact | ![screenshot of contact page on mobile](documentation/testing/mobile-test-contact.png) | ![screenshot of contact page on tablet](documentation/testing/tablet-test-form-validation.jpg) | ![screenshot of contact page on desktop](documentation/testing/desktop-test-contact.png) | ![screenshot of contact page on xxl screen](documentation/testing/xxl-test-contact.png) |
+| Success | ![screenshot of success page on mobile](documentation/testing/mobile-test-success.png) | ![screenshot of success page on tablet](documentation/testing/tablet-test-success.jpg) | ![screenshot of success page on desktop](documentation/testing/desktop-test-success.png) | ![screenshot of success page on xxl screen](documentation/testing/xxl-test-success.png) |
+| 404 | ![screenshot of 404 page on mobile](documentation/testing/mobile-test-404.png) | ![screenshot of 404 page on tablet](documentation/testing/tablet-test-404.jpg) | ![screenshot of 404 page on desktop](documentation/testing/desktop-test-404.png) | ![screenshot of 404 on xxl screens](documentation/testing/xxl-test-404.png) |
 
 ## Browser Compatibility
 

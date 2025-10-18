@@ -143,10 +143,6 @@ nav {
     box-shadow: 0px 4px 2px #0d1e2a;
 }
 
-#nav-toggle {
-    display: none;
-}
-
 #nav-toggle:checked~nav {
     display: block;
 }
