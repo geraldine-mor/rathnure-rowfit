@@ -102,72 +102,45 @@ Defensive programming was manually tested with the below user acceptance testing
 
 ## User Story Testing
 
-⚠️ INSTRUCTIONS ⚠️
-
-Testing User Stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **Features** should already align with the **User Stories**, so this should be as simple as creating a table with the User Story, matching with the re-used screenshot from the respective Feature.
-
-⚠️ --- END --- ⚠️
-
 | Target | Expectation | Outcome | Screenshot | 
 | --- | --- | --- | --- | 
-| As a user | I would like to see examples of why I should join | so that I can learn about the club’s mission and purpose before deciding to join. | ![screenshot](documentation/features/feature01.png) |
-| As a user | I would like to view the running schedule/timetable | so that I can decide when to join a session. | ![screenshot](documentation/features/feature02.png) |
-| As a user | I would like to see the details of different running events | so that I can prepare accordingly. | ![screenshot](documentation/features/feature03.png) |
-| As a user | I would like to view a gallery of past events | so that I can see photos of myself and others from previous runs. | ![screenshot](documentation/features/feature04.png) |
-| As a user | I would like to sign up for the running club | so that I can join the community and participate in events. | ![screenshot](documentation/features/feature05.png) |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with club news and events. | ![screenshot](documentation/features/feature06.png) |
-| As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. | ![screenshot](documentation/features/feature07.png) |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/feature08.png) |
+| As a potential member | I want to be able to easily navigate the site | so that I can find all the information I need to decide whether to join. | ![screenshot of navbar](documentation/features/navbar.png) |
+| As a local resident interested in joining the club | I want to see a clear image | so I can see what it is all about. | ![screenshot of hero image](documentation/features/hero-image.png) |
+|As a local resident | I would like to know more about the club | so that I can decide if I want to try it. | ![screenshot of about section](documentation/features/about-section-desktop.png) |
+|As a potential member | I would like to know when the classes are held | so that I can see if it works with my schedule. | ![screenshot of timetable](documentation/features/timetable-desktop.png) |
+| As a potential member | I want information about how to contact the club | so that I can arrange to join. | ![screenshot of contact details](documentation/features/contact-details.png) |
+| As a local resident | I want to contact the club because I have specific questions I need answered | so that I can decide whether to attend. | ![screenshot of contact form](documentation/features/contact-form.png) |
+| As a potential member | I would like to easily find the social media accounts for the club | so that I can look at their club activities and see if I think it will be a good fit for me. | ![screenshot of footer](documentation/features/footer-desktop.png) |
+| As a potential member | I want to see images of classes and club events | to help me decide if I would like to join. | ![screenshot of gallery](documentation/features/gallery-xl.png) |
+| As a potential member | I want to see class and membership pricing options | so that I can see if it meets my budget expectations | ![screenshot of pricing section](documentation/features/pricing.png) |
+| As a potential member | I want to read other people's experiences with the club | to help me decide whether to join | ![screenshot of testimonials](documentation/features/testimonials-desktop.png) |
+| As an existing member | I want to check upcoming events | so that I can plan to attend | *Classified as wont-have for this release* |
+| As a local resident | I want to receive updates on the club activities | so that I can decide whether to particiate | *Classified as wont-have for this release* |
+| As an existing member | I want to register for classes | so that I can ensure I will get a place | *Classified as wont-have for this release* |
 
 ## Bugs
-
-⚠️ INSTRUCTIONS ⚠️
-
-Nobody likes bugs,... except the assessors! Projects seem more suspicious if a student doesn't properly track their bugs. If you're about to submit your project without any bugs listed below, you should ask yourself why you're doing this course in the first place, if you're able to build this entire application without running into any bugs. The best thing you can do for any project is to document your bugs! Not only does it show the true stages of development, but think of it as breadcrumbs for yourself in the future, should you encounter the same/similar bug again, it acts as a gentle reminder on what you did to fix the bug.
-
-If/when you encounter bugs during the development stages of your project, you should document them here, ideally with a screenshot explaining what the issue was, and what you did to fix the bug.
-
-Alternatively, an improved way to manage bugs is to use the built-in **[Issues](https://www.github.com/geraldine-mor/rathnure-rowfit/issues)** tracker on your GitHub repository. This can be found at the top of your repository, the tab called "Issues".
-
-If using the Issues tracker for bug management, you can simplify the documentation process for testing. Issues allow you to directly paste screenshots into the issue page without having to first save the screenshot locally. You can add labels to your issues (e.g. `bug`), assign yourself as the owner, and add comments/updates as you progress with fixing the issue(s). Once you've solved the issue/bug, you should then "Close" it.
-
-When showcasing your bug tracking for assessment, you can use the following examples below.
-
-⚠️ --- END --- ⚠️
 
 ### Fixed Bugs
 
 [![GitHub issue custom search](https://img.shields.io/github/issues-search/geraldine-mor/rathnure-rowfit?query=is%3Aissue%20is%3Aclosed%20label%3Abug&label=Fixed%20Bugs&color=green)](https://www.github.com/geraldine-mor/rathnure-rowfit/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
 
-I've used [GitHub Issues](https://www.github.com/geraldine-mor/rathnure-rowfit/issues) to track and manage bugs and issues during the development stages of my project.
+I used [GitHub Issues](https://www.github.com/geraldine-mor/rathnure-rowfit/issues) to track and manage bugs and issues during the development stages of my project.
 
 All previously closed/fixed bugs can be tracked [here](https://www.github.com/geraldine-mor/rathnure-rowfit/issues?q=is%3Aissue+is%3Aclosed+label%3Abug).
 
-![screenshot](documentation/bugs/gh-issues-closed.png)
+![screenshot](documentation/testing/closed-bugs.png)
 
 ### Unfixed Bugs
 
-⚠️ INSTRUCTIONS ⚠️
-
-You will need to mention any unfixed bugs and why they are not fixed upon submission of your project. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. Where possible, you must fix all outstanding bugs, unless outside of your control.
-
-If you've identified any unfixed bugs, no matter how small, be sure to list them here! It's better to be honest and list them, because if it's not documented and an assessor finds the issue, they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-⚠️ --- END --- ⚠️
+To the best of my knowledge all bugs have been found and resolved.
 
 [![GitHub issue custom search](https://img.shields.io/github/issues-search/geraldine-mor/rathnure-rowfit?query=is%3Aissue%2Bis%3Aopen%2Blabel%3Abug&label=Unfixed%20Bugs&color=red)](https://www.github.com/geraldine-mor/rathnure-rowfit/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-
-Any remaining open issues can be tracked [here](https://www.github.com/geraldine-mor/rathnure-rowfit/issues?q=is%3Aissue+is%3Aopen+label%3Abug).
-
-![screenshot](documentation/bugs/gh-issues-open.png)
 
 ### Known Issues
 
 | Issue | Screenshot |
 | --- | --- |
-| The project is designed to be responsive from `320px` and upwards, in line with the material taught on the course LMS. Minor layout inconsistencies may occur on extra-wide (e.g. 4k/8k monitors), or smart-display devices (e.g. Nest Hub, Smart Watches, Gameboy Color, etc.), as these resolutions are outside the project’s scope, as taught by Code Institute. | ![screenshot](documentation/issues/poor-responsiveness.png) |
+| The project is designed to be responsive from `320px` and upwards, in line with the material taught on the course LMS. Minor layout inconsistencies may occur on extra-wide (e.g. 4k/8k monitors), or smart-display devices (e.g. Nest Hub, Smart Watches, Gameboy Color, etc.), as these resolutions are outside the project’s scope, as taught by Code Institute. | ![screenshot](documentation/testing/smartwatch.png) |
 | When validating the css, there were warnings about the css variables not being checked due to their dynamic nature. This is acceptable | ![screenshot of css warnings](documentation/testing/css-warnings.png) |
 
 > [!IMPORTANT]  
