@@ -7,6 +7,7 @@
     <meta name="description" content="Rathnure RowFit class timetable detailing all gym classes">
     <meta name="keywords"
         content="Rathnure RowFit, rowing, indoor rowing, exercise, fitness, Rathnure, Wexford, class times, schedule">
+    
     <title>Rathnure RowFit | Timetable</title>
 
     <!--Favicon created with favicon.io, icon from flaticon.com, Leremy: rowing.png-->
@@ -24,7 +25,7 @@
         <a id="logo" href="index.html">
             <img id="logo-image" src="assets/images/logo-light.png"
                 alt="Rathnure RowFit logo - an icon of a person on a rowing machine"></a>
-            <a href="index.html" id="nav-text">Rathnure RowFit</a>
+        <a href="index.html" id="nav-text">Rathnure RowFit</a>
         <!--Navbar menu toggle-->
         <input id="nav-toggle" type="checkbox" name="nav-toggle" class="hidden">
         <label for="nav-toggle" class="nav-toggle"><i class="fa-solid fa-bars"></i></label>
@@ -51,13 +52,12 @@
             <p class="lead">
                 All our gym classes are held in our base location at John Kelly Hall in Rathnure Village.
                 Our classes are coached and include options to suit all fitness and ability levels.
-                Indoor rowing offers a full-body workout where the machines provide resistance aiding muscle growth and
-                our
-                class pacing help to improve overall fitness and endurance.
+                Indoor rowing offers a full-body workout where the machines provide resistance, aiding muscle growth,
+                and our class pacing helps to improve overall fitness and endurance.
             </p>
         </section>
         <section id="timetable-cards">
-            <div id="row-a">
+            <div class="grid-row">
                 <div class="card">
                     <div id="steady-state" class="card-image">
                         <div class="card-heading">
@@ -90,7 +90,7 @@
                         friendly group training session.</p>
                 </div>
             </div>
-            <div id="row-b">
+            <div class="grid-row">
                 <div class="card">
                     <div id="intervals" class="card-image">
                         <div class="card-heading">
@@ -99,13 +99,10 @@
                         </div>
                     </div>
                     <p><i class="fa-solid fa-stopwatch-20"></i> Our interval training involves repeated short intervals
-                        of
-                        high intensity rowing with rest periods between.<br><i class="fa-solid fa-stopwatch-20"></i>
-                        Interval training
-                        boosts cardiovascular fitness, endurance and strength.<br><i
+                        of high intensity rowing with rest periods between.<br><i class="fa-solid fa-stopwatch-20"></i>
+                        Interval training boosts cardiovascular fitness, endurance and strength.<br><i
                             class="fa-solid fa-stopwatch-20"></i>
-                        These sessions
-                        will make you sweat and leave you feeling it the next day!</p>
+                        These sessions will make you sweat and leave you feeling it the next day!</p>
                 </div>
                 <div class="card">
                     <div id="social-hike" class="card-image text-end">
@@ -128,20 +125,36 @@
             <h2>Our Prices</h2>
             <table id="price-table">
                 <tr>
-                    <th></th><th>Rowing</th><th>Circuits</th><th>Weekly</th><th>Yearly</th>
+                    <th></th>
+                    <th>Rowing</th>
+                    <th>Circuits</th>
+                    <th>Weekly</th>
+                    <th>Yearly</th>
                 </tr>
                 <tr>
-                    <td class="row-h">Adults</td><td>€5</td><td>€7.50</td><td>€15</td><td>€500</td>
+                    <td class="row-h">Adults</td>
+                    <td>€5</td>
+                    <td>€7.50</td>
+                    <td>€15</td>
+                    <td>€500</td>
                 </tr>
                 <tr>
-                    <td class="row-h">Juniors (u18)</td><td>€3</td><td>n/a</td><td>€5</td><td>€200</td>
+                    <td class="row-h">Juniors (u18)</td>
+                    <td>€3</td>
+                    <td>n/a</td>
+                    <td>€5</td>
+                    <td>€200</td>
                 </tr>
                 <tr>
-                    <td class="row-h">Seniors (60+)</td><td>€3</td><td>€5</td><td>€10</td><td>€350</td>
+                    <td class="row-h">Seniors (60+)</td>
+                    <td>€3</td>
+                    <td>€5</td>
+                    <td>€10</td>
+                    <td>€350</td>
                 </tr>
             </table>
             <div id="pricing-contact">
-                <p>Please contact us if you have any queries about our classes, pricing or membership</p>
+                <p>Please contact us if you have any queries about our classes, pricing or membership.</p>
                 <a href="contact.html" class="button blue-btn">Contact Us</a>
             </div>
         </section>
@@ -149,37 +162,25 @@
     </main>
 
     <!--Footer-->
-     <footer class="light-text">
-      <ul id="social-links">
-        <li>
-          <a
-            href="https://www.facebook.com"
-            rel="noopener"
-            target="_blank"
-            aria-label="Visit our Facebook page (link opens in a new tab)"
-            ><i id="facebook" class="fa-brands fa-facebook-f"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com"
-            rel="noopener"
-            target="_blank"
-            aria-label="Check out our instagram page (link opens in a new tab)"
-            ><i id="instagram" class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.tiktok.com"
-            rel="noopener"
-            target="_blank"
-            aria-label="See us on Tiktok (link opens in a new tab)"
-            ><i id="tiktok" class="fa-brands fa-tiktok"></i
-          ></a>
-        </li>
-      </ul>
-      <p class="small">Website created by Geraldine Morey</p>
+    <footer class="light-text">
+        <ul id="social-links">
+            <li>
+                <a href="https://www.facebook.com" rel="noopener" target="_blank"
+                    aria-label="Visit our Facebook page (link opens in a new tab)"><i id="facebook"
+                        class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" rel="noopener" target="_blank"
+                    aria-label="Check out our instagram page (link opens in a new tab)"><i id="instagram"
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com" rel="noopener" target="_blank"
+                    aria-label="See us on Tiktok (link opens in a new tab)"><i id="tiktok"
+                        class="fa-brands fa-tiktok"></i></a>
+            </li>
+        </ul>
+        <p class="small">Website created by Geraldine Morey</p>
     </footer>
 
     <!--Fontawesome kit-->

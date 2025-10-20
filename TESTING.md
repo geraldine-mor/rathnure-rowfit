@@ -26,7 +26,6 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | --- | --- | --- | --- | --- |
 | assets | [styles.css](https://github.com/geraldine-mor/rathnure-rowfit/blob/main/assets/css/styles.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://geraldine-mor.github.io/rathnure-rowfit) | ![screenshot](documentation/testing/css-validation.png) |  |
 
-
 ## Responsiveness
 
 I tested my deployed project to check for responsiveness issues.
@@ -42,7 +41,7 @@ I tested my deployed project to check for responsiveness issues.
 
 ## Device Testing
 
-I tested the deployed site on 3 different devices: an iphone SE 2020, a Samsung Galaxy Tab S7 and a Windows laptop with additional xxl scren. All pages rendered as expected and all links and buttons worked as intended. 
+I tested the deployed site on 3 different devices: an iphone SE 2020, a Samsung Galaxy Tab S7 and a Windows 10 laptop with additional xxl scren. All pages rendered as expected and all links and buttons worked as intended. 
 >Screen sizes were taken from [viewportsizer.com](https://viewportsizer.com/what-is-my-screen-size/). 
 
 |  | iPhone SE (2020) | Samsung Galaxy Tab S7 | Windows 10 Laptop | Additional Dell Monitor |
@@ -57,9 +56,9 @@ I tested the deployed site on 3 different devices: an iphone SE 2020, a Samsung 
 
 ## Browser Compatibility
 
-I tested my deployed project on 3 different browsers to  check for compatibility issues. There were minor differences on the contact form described below but as these are browser default settings, I am happy that the project still looks and functions as intended across all 3 browsers.
+I tested my deployed project on 3 different browsers to check for compatibility issues. There were minor differences on the contact form described below but as these are browser default settings, I am happy that the project still looks and functions as intended across all 3 browsers.
 
-| Page | Chrome | Firefox | Safari (on iphone) | Notes |
+| Page | Chrome | Firefox | Safari (on iPhone) | Notes |
 | --- | --- | --- | --- | --- |
 | Home | ![screenshot of homepage on chrome](documentation/testing/chrome-home.png) | ![screenshot of homepage on firefox](documentation/testing/firefox-home.png) | ![screenshot of homepage on safari](documentation/testing/safari-home.png) | Works as expected |
 | Timetable | ![screenshot of timetable on chrome](documentation/testing/chrome-timetable.png) | ![screenshot of timetable on firefox](documentation/testing/firefox-timetable.png) | ![screenshot of timetable on safari](documentation/testing/mobile-test-timetable.png) | Works as expected |
@@ -92,10 +91,10 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Feature is expected to be fully responsive. | Resized the browser window and tested on multiple devices (mobile, tablet, desktop). | The page was responsive across all tested screen sizes. | 
 | Testimonials| Feature is expected to show member feedback. | Verified that the page displays member testimonials. | Testimonials displayed as expected. |
 | Timetable | Feature is expected to show the club timetable for classes. | Confirmed that the page contains a structured table or list with class timings. | Timetable was displayed as expected. | 
-| Pricing | Feature is expected to display details pricing options in a clear and concise manner. | Verified that the page contains a table or list of pricing options. | Pricing options were displayed as expected. |
+| Pricing | Feature is expected to display details of pricing options in a clear and concise manner. | Verified that the page contains a table or list of pricing options. | Pricing options were displayed as expected. |
 | Gallery | Feature is expected to showcase a gallery of club classes, activites and past events. | Verified that the gallery contains clear images that aren't stretched or pixelated, and are fully responsive. | Images are properly sized, and respond well to different device sizes. |
 | Contact Form | Feature is expected to prevent submission of an empty form. | Attempted to submit the form without filling any fields. | Form submission was blocked, as expected. | 
-| | Feature is expected to enforce valid input types for each field. | Entered invalid data (e.g., random text in an email field, numbers in a name field, etc.). | Error messages were displayed appropriately, and submission was blocked. | 
+| | Feature is expected to enforce valid input types for each field. | Entered invalid data (e.g., random text in an email field, letters in a number field, etc.). | Error messages were displayed appropriately, and submission was blocked. | 
 | | Feature is expected to deliver a confirmation message to inform the user that the form has been submitted. | Completed all fields with valid data. | On submit a new page opened with a success message and links back to the site. | 
 | Social Links | Feature is expected to include working links to the club’s social platforms (Instagram, Facebook, etc.). | Clicked each social link to verify redirection to the correct platform page. | All links redirected to the correct platform pages, opening in new browser tabs. | 
 | 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/test`) to test error handling. | A custom 404 error page was displayed as expected. | 
@@ -110,7 +109,7 @@ Defensive programming was manually tested with the below user acceptance testing
 |As a potential member | I would like to know when the classes are held | so that I can see if it works with my schedule. | ![screenshot of timetable](documentation/features/timetable-desktop.png) |
 | As a potential member | I want information about how to contact the club | so that I can arrange to join. | ![screenshot of contact details](documentation/features/contact-details.png) |
 | As a local resident | I want to contact the club because I have specific questions I need answered | so that I can decide whether to attend. | ![screenshot of contact form](documentation/features/contact-form.png) |
-| As a potential member | I would like to easily find the social media accounts for the club | so that I can look at their club activities and see if I think it will be a good fit for me. | ![screenshot of footer](documentation/features/footer-desktop.png) |
+| As a potential member | I would like to easily find the social media accounts for the club | so that I can look at the club activities and see if I think it will be a good fit for me. | ![screenshot of footer](documentation/features/footer-desktop.png) |
 | As a potential member | I want to see images of classes and club events | to help me decide if I would like to join. | ![screenshot of gallery](documentation/features/gallery-xl.png) |
 | As a potential member | I want to see class and membership pricing options | so that I can see if it meets my budget expectations | ![screenshot of pricing section](documentation/features/pricing.png) |
 | As a potential member | I want to read other people's experiences with the club | to help me decide whether to join | ![screenshot of testimonials](documentation/features/testimonials-desktop.png) |
@@ -140,7 +139,7 @@ To the best of my knowledge all bugs have been found and resolved.
 
 | Issue | Screenshot |
 | --- | --- |
-| The project is designed to be responsive from `320px` and upwards, in line with the material taught on the course LMS. Minor layout inconsistencies may occur on extra-wide (e.g. 4k/8k monitors), or smart-display devices (e.g. Nest Hub, Smart Watches, Gameboy Color, etc.), as these resolutions are outside the project’s scope, as taught by Code Institute. | ![screenshot](documentation/testing/smartwatch.png) |
+| The project is designed to be responsive from `320px` and upwards, in line with the material taught on the course LMS. Minor layout inconsistencies may occur on extra-wide (e.g. 4k/8k monitors), or smart-display devices (e.g. Nest Hub, Smart Watches, Gameboy Color, etc.), as these resolutions are outside the project’s scope, as taught by Code Institute. | ![screenshot of homepage displayed on 225x225px smartwatch](documentation/testing/smartwatch.png) |
 | When validating the css, there were warnings about the css variables not being checked due to their dynamic nature. This is acceptable | ![screenshot of css warnings](documentation/testing/css-warnings.png) |
 
 > [!IMPORTANT]  
