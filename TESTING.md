@@ -80,6 +80,9 @@ I tested my deployed project using the Lighthouse Audit tool to check for any ma
 | Success |  ![screenshot of lighthouse report](documentation/lighthouse/lighthouse-success-mobile.png) | ![screenshot of lighthouse report](documentation/lighthouse/lighthouse-success-desktop.png) |
 | 404 | ![screenshot of lighthouse report](documentation/lighthouse/lighthouse-404-mobile.png) | ![screenshot of lighthouse report](documentation/lighthouse/lighthouse-404-desktop.png) |
 
+>[!NOTE]
+>Some images were not able to be compressed below 1MB abd this has had an effect on the performance of some pages. For future implementations I would attempt to resize the images to achieve faster loading times.
+
 ## Defensive Programming
 
 Defensive programming was manually tested with the below user acceptance testing:
